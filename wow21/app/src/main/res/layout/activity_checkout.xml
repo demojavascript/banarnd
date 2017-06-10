@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.accelity.wow21.activities.CheckoutActivity">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"></include>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/scrollView_box1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycleview_checkoutdeallist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lout_step5"
+            android:visibility="gone"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:text="Coupon code "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:id="@+id/tv_couponCode"
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:text=" Applied successfully."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:text="Coupon Amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:text="@string/rs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_couponAmount"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/lout_cashback"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginRight="2dp"
+                            android:text="@string/rs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView android:layout_marginRight="3dp"
+                            android:id="@+id/tv_couponAmount2"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:text="will be added to you wallet within 24 hours of this order."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:text="Net Payable Amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:text="@string/rs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_payableAmount"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/btn_couponCancel"
+                        android:background="@null"
+                        android:textColor="@color/colorAnchorBlue"
+                        android:text="Cancel Coupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btnCheckout2"
+                        android:drawablePadding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/green_btn_style"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:drawableRight="@drawable/ic_arrow_forward"
+                        android:text="Checkout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/lout_step1"
+            android:visibility="visible"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:drawablePadding="14dp"
+                        android:drawableLeft="@drawable/ic_coupon"
+                        android:id="@+id/btn_applycouponBox"
+                        android:background="@null"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13dp"
+                        android:text="Apply Coupon"
+                        android:textAllCaps="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:visibility="gone"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorlightGrayBlue"
+                        android:text="OR"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:visibility="gone"
+                        android:drawablePadding="14dp"
+                        android:drawableRight="@drawable/ic_freebie"
+                        android:id="@+id/btn_freebiesBox"
+                        android:background="@null"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13dp"
+                        android:textAllCaps="false"
+                        android:text="Freebies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/lout_step2"
+            android:visibility="gone"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="@drawable/bottom_brdr_style_default"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/ed_finalCouponCode"
+                                android:hint="Enter coupon code"
+                                style="@style/edDefaultStyleNoBrd"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <Button
+                                android:id="@+id/btn_ApplyCoupon"
+                                android:background="@null"
+                                android:textSize="14dp"
+                                android:textColor="@color/colorAnchorBlue"
+                                android:text="Apply"
+                                android:textAllCaps="false"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btn_SelectCoupon"
+                            android:background="@null"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorRed"
+                            android:text="Select Coupon Code"
+                            android:textAllCaps="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/lout_step4"
+            android:visibility="visible"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:background="@color/colorgraylout"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:gravity="right"
+                                android:background="@drawable/ic_cart_b3"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:id="@+id/tv_tQty"
+                                    android:paddingTop="2dp"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="3dp"
+                                    android:paddingRight="3dp"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/colorBlack"
+                                    android:text="0"
+                                    android:background="@drawable/round_tv_style"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:text="Total :"
+                                android:textSize="16sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginLeft="4dp"
+                                android:textColor="@color/colorBlack"
+                                android:text="@string/rs"
+                                android:textSize="16sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tv_totalAmount"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/colorBlack"
+                                android:text="0"
+                                android:textSize="16sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:visibility="gone"
+                                android:id="@+id/tv_tSavings"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/colorWhite"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:layout_marginBottom="3dp"
+                            android:id="@+id/btnCheckout"
+                            android:drawablePadding="4dp"
+                            android:textSize="14sp"
+                            android:drawableRight="@drawable/ic_arrow_right"
+                            android:background="@drawable/checkout_btn_box_round"
+                            android:textAllCaps="false"
+                            android:text="Checkout"
+                            android:paddingLeft="14dp"
+                            android:includeFontPadding="false"
+                            android:textColor="@color/colorWhite"
+                            android:paddingRight="14dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:clickable="true"
+        android:visibility="gone"
+        android:id="@+id/rout_step3"
+        android:background="@color/colorPopupBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/colorWhite"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ListView
+                    android:layout_weight="1"
+                    android:id="@+id/couponList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/btn_DoneCouponSelection"
+                    android:text="Apply"
+                    style="@style/greenBtnStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

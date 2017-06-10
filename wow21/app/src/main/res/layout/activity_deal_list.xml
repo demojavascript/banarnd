@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colordealpagebg"
+    tools:context="com.accelity.wow21.activities.DealListActivity">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"></include>
+    <RelativeLayout
+        android:id="@+id/scrollView_box1"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/ll_footer_summary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/belowApp"
+                    android:layout_below="@+id/app_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="0dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:visibility="visible"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/lout_for_storesummary"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/tv_nearstoreg"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimary"
+                            android:text="You are at "
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorPrimaryOrange"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:id="@+id/near_deal_storename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+                        <TextView
+                            android:visibility="gone"
+                            android:gravity="center_horizontal"
+                            android:textSize="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:id="@+id/near_deal_storename2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/belowApp"
+                    android:visibility="gone"
+                    android:id="@+id/lout_for_nodeals"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:gravity="bottom"
+                        android:background="@drawable/img_outofreach"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:gravity="bottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/colorbloodred"
+                                android:textSize="22sp"
+                                android:text="OOPS!"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="6dp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:text="It seems like you are out of reach from any WOW store.
+Please visit any of our listed stores to place the order."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:visibility="gone"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Oops! You are not in reach of any WOW Store. Please visit any of our listed Stores to place the Order."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_below="@+id/lout_for_nodeals"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <android.support.v7.widget.RecyclerView
+                        android:visibility="gone"
+                        android:id="@+id/recycleview_deallist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"  />
+                    <android.support.v7.widget.RecyclerView
+                        android:visibility="gone"
+                        android:id="@+id/recycleview_nodeallist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"  />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        android:id="@+id/ll_footer_summary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <View
+            android:background="@color/colorGrayBtn"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="@color/colorWhite"
+            android:id="@+id/lout_step2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:padding="8dp"
+                    android:background="@null"
+                    android:id="@+id/btnStoreList"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:text="Store List"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <Button
+                    android:padding="8dp"
+                    android:background="@null"
+                    android:id="@+id/btnRefreshLoc"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:text="Refresh Location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/lout_step1"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="right"
+                        android:background="@drawable/ic_cart_b3"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp">
+                        <TextView
+                            android:id="@+id/tv_tQty"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:textSize="10sp"
+                            android:textColor="@color/colorBlack"
+                            android:text="0"
+                            android:background="@drawable/round_tv_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Total :"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/rs"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_totalAmount"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_tSavings"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="0"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/btnCheckout"
+                    android:drawablePadding="4dp"
+                    android:textSize="14sp"
+                    android:drawableRight="@drawable/ic_arrow_right"
+                    android:background="@drawable/checkout_btn_box_round"
+                    android:textAllCaps="false"
+                    android:text="Go To Cart"
+                    android:paddingLeft="14dp"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/colorWhite"
+                    android:paddingRight="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

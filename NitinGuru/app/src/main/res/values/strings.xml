@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NitinGuru</string>
+    <string name="rs">\u20B9</string>
+    <string name="customer_care_no">9213976459</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="app_google_play_url">https://play.google.com/store/apps/details?id=com.nitinguru.app.nitinguru</string>
+    <string name="noConnection">Not Connected to Internet.</string>
+    <string name="feedback_mail_to">canitinguruclasses@gmail.com</string>
+    <string name="feedback_mail_subject">Customer Feedback</string>
+    <string name="feedback_mail_body">\n\n\n From: \n</string>
+    <string name="aboutus">We are delighted to welcome you to our dynamic classes. It is truly focused and innovative with a challenging vision - " To be recognized as a leading faculty in conceptualized learning and as being student friendly with a strong focus on the pursuit of knowledge."\n\nWe have always placed emphasis on quality learning among students and developing their ability to correctly assess and solve problems, thereby educating the students to the core.\n\nWe are powered by our mission and vision to develop a learning environment for students which is well accepted and acknowledged by all. Further, we all take pride in the fact that our main aim is to serve our students extremely well and we have been able to achieve this to a great extent. It gives us great pleasure to announce to you that we at CA NITIN GURU CLASSES have been able to create the highest pass out percentage of students at professional examinations.</string>
+    <string name="contactus">Ph - 9213976459, 9211122778\n\nFacebook Page - CA Nitin Guru Classes\n\nEmail - canitinguruclasses@gmail.com \n\nWebsite - canitinguru.com</string>
+    <string-array name="menuOptions">
+        <item>Videos</item>
+        <item>About us</item>
+        <item>Contact us</item>
+        <item>Feedback</item>
+        <item>Share App</item>
+        <item>Call us</item>
+        <item>Rate Us</item>
+    </string-array>
+
+</resources>

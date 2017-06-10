@@ -1,0 +1,730 @@
+{
+	"Chapters":[
+		{"id":"1", "name":"Computation of Total Income","topics":[
+			{"id":"11", "name":"Meaning of Person [Section 2(31)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"<h4>Desc goes here</h4>"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"12", "name":"Computation of Total Income","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"13", "name":"Computation of Tax Liability","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"14", "name":"Surcharge in case of Individual","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"15", "name":"Marginal Relief","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"16", "name":"Rebate under Section 87A","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"17", "name":"Taxability of Casual Income","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"18", "name":"Taxability of Capital Gains","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"19", "name":"Taxability of income of Partnership Firm/ Limited Liability Partnership firm","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"110", "name":"Taxability of income of Domestic Company","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"111", "name":"Taxability of income of Foreign Company","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"112", "name":"Taxability of income of Hindu Undivided Family (HUF)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"113", "name":"Taxability of income of Body of Individuals/ Association of Persons","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"114", "name":"Taxability of income of Local Authority","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"115", "name":"Agriculture income [section 10(1)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"116", "name":"Taxability of  Dividends","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"117", "name":"Interest or Dividend income from UTI or Mutual Funds – section 10(35)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"2", "name":"Residential Status","topics":[
+			{"id":"21", "name":"Residential Status [section 6]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"22", "name":"Residential status of Individuals [section 6(1) & 6(6)(a)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"23", "name":"Residential status of HUF","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"24", "name":"Residential status of Firm / AOP / Local Authorities / AJP","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"25", "name":"Residential status of a Company [section 6(3)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"26", "name":"Scope of residential status","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"27", "name":"Income deemed to be received in India [section 7]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"28", "name":"Income deemed to accrue or arise in India [section 9]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"29", "name":"Business connection & Taxability in India","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"3", "name":"Taxability of Gift","topics":[
+			{"id":"31", "name":"Taxability of Gift [Section 56(2)(vii)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"32", "name":"Gift is exempt in some cases","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"33", "name":"Gift in case of HUF","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"34", "name":"Meaning of Property","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"35", "name":"Taxability of Stock - in Trade","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"36", "name":"Taxability of gift received from employer [Section 17(2)(vii), Rule 3(7)(iv)]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"37", "name":"Gift or perquisites received from clients [Section 28]","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"38", "name":"Taxability of Scholarship / Award / Reward","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"4", "name":"Clubbing of Income","topics":[
+			{"id":"41", "name":"Section 60: Transfer of income without transfer of assets","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"42", "name":"Section 61: Revocable Transfer","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"43", "name":"Section 62: Irrevocable Transfer of asset","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"44", "name":"Section 64(1) (ii): Remuneration received by the spouse from a concern in which the individual substantial interest","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"45", "name":"Section 64(1) (iv): Income from assets transferred to spouse","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"46", "name":"Section 64(1) (vi): When an individual is assessable in respect of income from assets transferred to son’s wife.","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"47", "name":"Section 64(1) (vii): When an individual is assessable in respect of income from assets transferred to a person  for the benefit of spouse","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"48", "name":"Section 64(1) (viii): When an individual is assessable in respect of income from assets transferred to a person for the benefit of son’s wife","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"49", "name":"Section 64(1a): Assets held by minor child","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"410", "name":"Section 64(2): What is tax implication of conversion of self-acquired property into joint family property and subsequent partition?","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"411", "name":"Other points  ","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"5", "name":"Set off & Carry Forward","topics":[
+			{"id":"51", "name":"Inter-source and inter-head set off (Section 70 & 71)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"52", "name":"Steps for set-off","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"53", "name":"Order of set-off of losses","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"54", "name":"Set off and carry forward of losses under the head house property","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"55", "name":"Set off and carry forward of losses under the head business / profession","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"56", "name":"Set off and carry forward of losses under the head capital gains","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"57", "name":"Set off and carry forward of losses under the head” income from other sources","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"58", "name":"Set off and carry forward of losses in case of change in constitution of firm (Section 78)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"59", "name":"Set off and carry forward of losses in case of amalgamation, demerger and reorganization   (Section 72a)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"510", "name":"Set off and carry forward of losses by closely held companies (Section 79)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"6", "name":"Provisions for filing of Return of Income","topics":[
+			{"id":"61", "name":"Return of income under section 139(1)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"62", "name":"Due date of filing return of income under section 139(1).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"63", "name":"Different types of ITR forms","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"64", "name":"Return of loss as per section 139(3).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"65", "name":"Belated return of income under section 139(4).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"66", "name":"Revised return of income u/s 139(5).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"67", "name":"Defective return of income under section 139(9).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"68", "name":"People have to furnish with return under section 139(6) / 139(6A).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"69", "name":"Individual be exempt from filing return of income","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"610", "name":"Filing of return in computer media - Section 139(1B).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"611", "name":"PAN (Section 139A)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"612", "name":"Tax Return Preparers (Section 139B).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"613", "name":"Details to be furnished with return (Section 140) and signing of the return","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"614", "name":"Return of specified persons under section 139(4A) / (4B) / (4C) / (4D) / (4E) / (4F).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"7", "name":"Income under the head House Property","topics":[
+			{"id":"71", "name":"Chargeability under the head House Property (Section 22)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"72", "name":"Treatment of House Property held as Stock in Trade.","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"73", "name":"Treatment of Composite Rent","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"74", "name":"Determination of Gross Annual Value","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"75", "name":"Section 23(1) - Fair Rent; Municipal Value & Standard Rent","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"76", "name":"Municipal Taxes treatment under House Property – Section 23(1)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"77", "name":"Standard Deduction. (Section 24(a))","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"78", "name":"Deduction for Interest on Capital u/s 24(b)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"79", "name":"section 25","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"710", "name":"Rule 4","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"711", "name":"Unrealized rent recovered and arrears of rent received","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"712", "name":"Method for computing of income from House Property under different cases","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"713", "name":"Computation of House Property which is portion wise let out and portion wise self occupied","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"714", "name":"Treatment of co-owned property (Section 26)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"715", "name":"Treatment of house property if property is situated outside India (Section 26)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"716", "name":"Property owned by partnership firm","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"717", "name":"Concept of owner and deemed owner (Section 27).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"718", "name":"Other aspects related to House Property","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"719", "name":"Situations when income from House Property is exempt from tax","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		},
+		{"id":"8", "name":"Income under the head Capital Gains","topics":[
+			{"id":"81", "name":"Basis of charge on which capital gain is charged","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"82", "name":"Capital assets and those which are not capital assets","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"83", "name":"Long term or short term capital assets","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"84", "name":"Transactions are referred to transfer in Capital Gain","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"85", "name":"Computation of capital gain","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"86", "name":"Estimation of cost of acquisition of capital assets","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"87", "name":"Estimation of cost of improvement","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"88", "name":"What is indexation and indexed cost of acquisition / improvement","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"89", "name":"Few assets on which benefit of indexation is not available","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"810", "name":"Treatment of brokerage (commission) paid on shares and also STT paid on shares","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"811", "name":"Cost of acquisition and how capital gain is computed in different kinds of shares","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"812", "name":"Capital gain in case of depreciable assets (Section 50)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"813", "name":"Capital gain in case of Insurance Compensation (Section 45(1A))","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"814", "name":"Capital gain in case of conversion of capital asset into stock in trade - Section 45(2)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"815", "name":"Capital gain when shares are transferred by depository in dematerialized form (Section 45).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"816", "name":"Capital gain in case of Section 45","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"817", "name":"Capital gain computation in case of compulsory acquisition of asset by government (Section 45).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"818", "name":"Capital gain provisions in case of distribution of assets by company on liquidation (Section 46)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"819", "name":"Transactions which are not regarded as transfer - Section 47","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"820", "name":"Cost of acquisition for certain cases without transfer (Section 49).","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"821", "name":"COA (cost of acquisition) of assets received as gifts - Section 49(4)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"822", "name":"Slump sale - Section 50B","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"823", "name":"Section 50C - Transfer of assets at lower consideration","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"824", "name":"Section 50D","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"825", "name":"Treatment of advance money forfeiture (Section 51)","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"826", "name":"Exemptions from Capital Gain","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"827", "name":"Self generated assets and their cost of acquisition","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"828", "name":"Taxability of capital gains","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			},
+			{"id":"829", "name":"Rule of set off and carry forward of capital losses","notes":[
+				{"title":"sfhskadjfa sfjkasdf 111", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 112", "desc":"Desc goes here"},
+				{"title":"sfhskadjfa sfjkasdf 113", "desc":"Desc goes here"}
+			]
+			}
+		]
+		}
+	]
+}

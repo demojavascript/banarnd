@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OrderApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_landing">Setting</string>
+    <string name="title_activity_splash">splashActivity</string>
+    <string name="title_activity_setting">settingActivity</string>
+    <string-array name="menuOptions">
+        <item>Logout</item>
+    </string-array>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+</resources>

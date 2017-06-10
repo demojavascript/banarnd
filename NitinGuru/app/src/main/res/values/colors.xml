@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorPrimaryOrange">#FFCCBC</color>
+    <color name="colorPrimaryDarkOp">#80FFFFFF</color>
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorlightGrayBlue">#60696f</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorYellowBadge">#fbb03b</color>
+    <color name="colorYellowBadge2">#f4bc33</color>
+    <color name="colorbg">#ff7f57</color>
+    <color name="colorcardbg">#f3734c</color>
+    <color name="colorDull">#40000000</color>
+</resources>

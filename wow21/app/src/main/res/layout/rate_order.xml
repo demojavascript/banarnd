@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Give Your feedback."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/rb_orderRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progressBackgroundTint="@color/colorGrayBTN"
+                android:progressTint="@color/colorGreenBarDark"
+                android:secondaryProgressTint="@color/colorGreenBarDark"
+                android:rating="5" />
+            <!--<RatingBar
+                android:id="@+id/rb_orderRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" /> -->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_warn"
+                android:textSize="12sp"
+                android:textColor="@color/colorRed"
+                android:text="Please let us know, what went wrong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:visibility="visible"
+                android:id="@+id/feedbackMsg"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/round_ed_style"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_marginRight="7dp"
+                android:text="Cancel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnYes"
+                android:text="Submit"
+                android:textColor="@color/colorRed"
+                android:textSize="12sp"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

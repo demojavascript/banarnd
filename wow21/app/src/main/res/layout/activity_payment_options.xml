@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colordealpagebg"
+    tools:context="com.accelity.wow21.activities.PaymentOptionsActivity">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"></include>
+
+    <RelativeLayout
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardview_step1"
+                    app:cardCornerRadius="4dp"
+                    android:background="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="18dp"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Payment Summary"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/tv_dealCount"
+                                    android:textColor="@color/colorGreenBar"
+                                    android:textSize="14sp"
+                                    android:text="13 Items"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="14dp"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="Total MRP"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="@string/rs"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_totalMRP"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:text="347"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="14dp"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="Total WOW Price"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="@string/rs"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_totalAmount"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:text="347"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/lout_couponBox_cb"
+                                android:layout_marginTop="16dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/tv_couponCode_cb"
+                                    android:textSize="10dp"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="Coupon Applied (WOW21OFF009) Successfully."
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textColor="@color/colorlightGrayBlue"
+                                        android:text="@string/rs"
+                                        android:textSize="10sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                    <TextView
+                                        android:id="@+id/tv_cbamount"
+                                        android:textColor="@color/colorlightGrayBlue"
+                                        android:text=""
+                                        android:textSize="10sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                    <TextView
+                                        android:textSize="10dp"
+                                        android:text=" will be credited to your WOW Cash within 24 hours"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/lout_couponBox"
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/tv_couponCode"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="Coupon Applied(WOW21OFF009)"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="@string/rs"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_couponAmount"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:text="140"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="14dp"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="WOW Savings"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:text="@string/rs"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_totalSavings"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:text="347"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:background="@drawable/test_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"></LinearLayout>
+                        <LinearLayout
+                            android:background="@color/colorYellowBadge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="14dp"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Net Payable Amount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <View
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="@string/rs"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_payableAMount"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textSize="12sp"
+                                    android:text="140"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_below="@+id/cardview_step1"
+                    android:id="@+id/cardview_step2"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="4dp"
+                    android:background="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <CheckBox
+                                android:id="@+id/cb_btn_wallet"
+                                android:checked="false"
+                                android:buttonTint="@color/colorCOmponentTint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16dp"
+                                android:text="WOW Cash"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <View
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="5dp"
+                                android:background="@drawable/ed_bottom_brdr_style"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginRight="2dp"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="@string/rs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <EditText
+                                    android:longClickable="false"
+                                    android:background="@drawable/default_edittext_style2"
+                                    android:cursorVisible="true"
+                                    android:textCursorDrawable="@null"
+                                    android:id="@+id/tv_walletPayAmount"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="0"
+                                    android:inputType="number"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:text="You have"
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_marginLeft="6dp"
+                                    android:text="@string/rs"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tv_walletTotalAmount"
+                                    android:text="0"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_marginLeft="6dp"
+                                    android:text="left."
+                                    android:textColor="@color/colorlightGrayBlue"
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_marginTop="4dp"
+                                        android:text="Minimum Order Amount to avail WOW Cash is "
+                                        android:textColor="@color/colorlightGrayBlue"
+                                        android:textSize="11sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                    <TextView
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/rs"
+                                        android:textColor="@color/colorlightGrayBlue"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                    <TextView
+                                        android:id="@+id/tv_qualifyingamount"
+                                        android:layout_marginTop="4dp"
+                                        android:text="0"
+                                        android:textColor="@color/colorlightGrayBlue"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/lout_3"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/cardview_step2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/colorlightGrayBlue"
+                        android:textSize="14sp"
+                        android:text="Balance Amount to be Paid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+                        <TextView
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="1dp"
+                            android:textColor="@color/colorRed"
+                            android:textSize="14sp"
+                            android:text="@string/rs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/tv_finalPayable1"
+                            android:textColor="@color/colorRed"
+                            android:textSize="14sp"
+                            android:text="0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <android.support.v7.widget.CardView
+                    android:layout_marginBottom="4dp"
+                    android:layout_below="@+id/lout_3"
+                    android:id="@+id/cardview_step4"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="4dp"
+                    android:background="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:id="@+id/rb_cash"
+                                android:checked="true"
+                                android:buttonTint="@color/colorCOmponentTint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="2dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp"
+                                android:text="Pay at Store"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <View
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <ImageView
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_app_payment_cash"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:id="@+id/rb_online"
+                                android:checked="false"
+                                android:buttonTint="@color/colorCOmponentTint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="2dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp"
+                                android:text="Pay Online"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <View
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <ImageView
+                                android:layout_marginTop="4dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_app_payment_paytm_cards"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:visibility="gone"
+                                android:textColor="@color/colorRed"
+                                android:textSize="14sp"
+                                android:text="Pay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="@color/colorRed"
+                                android:textSize="14sp"
+                                android:text="@string/rs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:visibility="gone"
+                                android:id="@+id/tv_finalPayable"
+                                android:textColor="@color/colorRed"
+                                android:textSize="14sp"
+                                android:text="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/colorGreenBar"
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/btn_PayNow"
+            android:background="@null"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:text="PLACE ORDER"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</RelativeLayout>

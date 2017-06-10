@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nitinguru.app.nitinguru.activities.QuizActivity">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_quiztitle"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:gravity="center_horizontal"
+                        android:text="Level 1 Quiz Started"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_noquiz"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:gravity="center_horizontal"
+                        android:text="No Quiz Available for this Chapter."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:padding="20dp"
+                    android:id="@+id/loutScore"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:layout_width="match_parent"
+                        android:textSize="14sp"
+                        android:text="Result here"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_Score"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="Score 3/4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/loutQuiz"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:text="1.) The Question is jfsakf ajsdf asjdfasd"
+                        android:id="@+id/tv_quiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioGroup
+                            android:orientation="vertical"
+                            android:id="@+id/radio_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/btnLogin"
+                            android:background="@drawable/orange_btn_style"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp"
+                            android:text="Submit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

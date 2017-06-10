@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nitinguru.app.nitinguru.activities.NotesActivity">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleview_noteslist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  />
+            <LinearLayout
+                android:id="@+id/quizLayout"
+                android:visibility="gone"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/recycleview_noteslist"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnQuiz"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Start Quiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

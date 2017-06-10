@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:spinnerItemStyle">@color/colorPrimaryDark</item>
+    </style>
+    <!-- global toolbar theme start -->
+    <style name="myCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+    </style>
+    <!-- global toolbar theme end -->
+</resources>

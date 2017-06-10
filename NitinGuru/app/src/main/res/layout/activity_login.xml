@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.nitinguru.app.nitinguru.activities.LoginActivity">
+    <ScrollView
+        android:id="@+id/login_viewScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:text="Login Here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edMobno"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorWhite"
+                    android:hint="Enter Mobile No"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorWhite"
+                    android:hint="Enter Email"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:background="@drawable/green_btn_style"
+                    android:textColor="@color/colorlightGrayBlue"
+                    android:textSize="18sp"
+                    android:text="Submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

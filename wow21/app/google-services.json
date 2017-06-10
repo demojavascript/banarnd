@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1097950240417",
+    "firebase_url": "https://wow21-cee8c.firebaseio.com",
+    "project_id": "wow21-cee8c",
+    "storage_bucket": "wow21-cee8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097950240417:android:c6edbf72c42ff2ff",
+        "android_client_info": {
+          "package_name": "com.accelity.wow21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097950240417-j5uhbf9ht8kjrpgvef7iimqcrhdq6d8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9aatdrgw1LjxotfaodKy7_4E9CihE_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

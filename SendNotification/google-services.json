@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "116960173392",
+    "firebase_url": "https://sendnotification-b3121.firebaseio.com",
+    "project_id": "sendnotification-b3121",
+    "storage_bucket": "sendnotification-b3121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116960173392:android:e089d4f564d60fa0",
+        "android_client_info": {
+          "package_name": "com.banatechnologies.sendnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116960173392-k0ej5q8vef0ab08viopp17lgpk9jok7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZU0T3jY8Z02_o1Zjx_P-PD7HrzKQOn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

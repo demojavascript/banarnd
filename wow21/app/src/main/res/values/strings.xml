@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">wow21</string>
+
+    <string name="sample_channel_id">WAP</string>
+    <string name="sample_industry_type_id">Retail109</string>
+    <string name="sample_theme">merchant</string>
+    <string name="sample_website">ACCEWAP</string>
+    <string name="sample_merchant_id_staging">ACCELI85955353821295</string>
+    <string name="sample_checksum_generation_url">https://pguat.paytm.com/merchant-chksum/ChecksumGenerator</string>
+    <string name="sample_checksum_verification_url">https://pguat.paytm.com/merchant-chksum/ValidateChksum</string>
+
+    <string name="app_google_play_url">https://play.google.com/store/apps/details?id=com.accelity.wow21</string>
+    <string name="rs">\u20B9</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="noConnection">Not Connected to Internet.</string>
+    <string name="wow_wallet">Available Cash :</string>
+    <string-array name="menuOptions">
+        <item>Place Order</item>
+        <item>Stores</item>
+        <item>My Orders</item>
+        <item>My Profile</item>
+        <item>Notifications</item>
+        <item>WOW Cash</item>
+        <item>Offers</item>
+        <item>Rate Us</item>
+        <item>Share App</item>
+        <item>Call Us</item>
+        <item>About Us</item>
+        <item>FAQ</item>
+        <item>Privacy Policy</item>
+        <item>Terms &amp; Conditions </item>
+    </string-array>
+    <string-array name="mStatusOptions">
+        <item>Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+    <string-array name="genderOptions">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!-- Home view start -->
+    <string name="share_app_string">Download WOW21 app at</string>
+    <string name="customer_care_no">8010777444</string>
+    <string name="feedbackPopupTitle">Your Feedback is ?</string>
+    <string name="feedback_btn_good">Good</string>
+    <string name="feedback_btn_bad">Bad</string>
+    <string name="feedback_mail_to">hello@wow21deals.com</string>
+    <string name="feedback_mail_subject">Customer Feedback</string>
+    <string name="feedback_mail_body">\n\n\n From: \n</string>
+    <string name="category_heading">Top Categories</string>
+    <string name="deals_heading">WoW Deals</string>
+    <string name="store_heading">Stores Near You</string>
+    <string name="usb_str1">21 Amazing Deals Everyday</string>
+    <string name="usb_str2">Trusted Local Stores</string>
+    <string name="usb_str3">100% Original Products</string>
+    <string name="usb_str4">Big Savings</string>
+    <string name="viewmore_btn">View more</string>
+    <string name="view_store">View Store</string>
+    <string name="deal_hurryup_txt">Hurry up! Deal Set will change in… </string>
+    <string name="deal_hurryup_txt2">21 Amazing Deals </string>
+    <string name="shop_now_btn_txt">Shop Now</string>
+    <string name="msg_txt_nodeal">Currently there is no Deal available in your area.</string>
+    <string name="msg_txt_nostore">Sorry, we can\u0027t find any Store near you</string>
+    <string name="eMsg_unexpect_error">Unexpected Error: Please Try Again.</string>
+    <string name="eMsg_location_update_failed">Location updation failed. Try again.</string>
+    <string name="cat_name_1">Beverages</string>
+    <string name="cat_name_2">Grocery &amp; Staples</string>
+    <string name="cat_name_3">Household</string>
+    <string name="cat_name_4">Personal Care</string>
+    <string name="cat_name_5">Packaged Food</string>
+    <string name="cat_name_6">Baby Care</string>
+    <string name="txt_deal_sold">Sold</string>
+    <string name="txt_deal_outofstock">Out of Stock</string>
+    <string name="eMsg_select_nodeal">Please select any deal.</string>
+    <string name="txt_usercode">This code gets updated each time for safety purpose.</string>
+
+    <string name="row_hv_deal_off_txt">Off</string>
+    <!-- Home view end -->
+    <!-- location view start-->
+    <string name="btn_refresh_text">Refresh My Location</string>
+    <string name="atv_manual_location">Search location manually</string>
+    <!-- location view end-->
+
+    <!-- login view start -->
+    <string name="tv_login_email_hint">Mobile Number</string>
+    <string name="tv_login_pwd_hint">Password</string>
+    <string name="tv_login_dnt_hv_acc_text">Don\u0027t have an account?</string>
+    <string name="btn_login_login_text">Login</string>
+    <string name="btn_login_forget_text">Forgot Password?</string>
+    <string name="btn_login_signup_text">Sign Up</string>
+    <string name="btn_login_skip_text">Skip</string>
+    <string name="eMsg_emailmobile_missing">Mobile number can not blank</string>
+    <string name="eMsg_pwd_missing">Password can not be blank.</string>
+    <!-- login view end -->
+
+    <!-- Profile view start -->
+    <string name="tv_profile_fname_hint">First Name</string>
+    <string name="tv_profile_lname_hint">Last Name</string>
+    <string name="tv_profile_email_hint">Email Address</string>
+    <string name="tv_profile_gender_hint">Gender</string>
+    <string name="tv_profile_mstatus_hint">Marital Status</string>
+    <string name="tv_profile_dob_hint">Date of Birth</string>
+    <string name="tv_profile_changepwd_hint">Change Password</string>
+    <string name="tv_profile_changemob_hint">Change Mobile No</string>
+    <string name="tv_profile_logout_txt">Logout</string>
+    <!-- Profile view end -->
+
+    <!-- signup view start -->
+    <string name="tv_signup_fname_hint">First Name</string>
+    <string name="tv_signup_lname_hint">Last Name</string>
+    <string name="tv_signup_email_hint">Email ID</string>
+    <string name="tv_signup_pwd_hint">Password</string>
+    <string name="tv_signup_cpwd_hint">Confirm Password</string>
+    <string name="tv_signup_mobileno_hint">Mobile Number</string>
+    <string name="tv_signup_already_hv_acc_text">Already have an account?</string>
+    <string name="tv_signup_srccode_hint">Enter Promo Code (Optional)</string>
+    <string name="btn_signup_signup_text">Sign up</string>
+    <string name="btn_otp_resend_text">Resend OTP</string>
+    <string name="btn_signup_login_text">Login</string>
+    <string name="btn_signup_skip_text">Skip</string>
+    <string name="btn_signup_otp_text">Submit</string>
+    <string name="eMsg_email_missing">Email Address can not be blank.</string>
+    <string name="eMsg_email_validation">Email Address not in correct format.</string>
+    <string name="eMsg_fname_missing">First name can not be blank.</string>
+    <string name="eMsg_lname_missing">Last name can not be blank.</string>
+    <string name="eMsg_mobile_missing">Mobile No can not be blank.</string>
+    <string name="eMsg_mobile_validation">Mobile No not in correct format</string>
+    <!-- signup view end -->
+
+    <!-- signup otp view start -->
+    <string name="tv_signupotp_text">By Signing Up, I agree to the</string>
+    <!-- signup otp view end -->
+
+    <!-- forgetpwd view start -->
+    <string name="tv_forgetpwd_instrucion_1">Don\u0027t panic - we\u0027ve got you covered.</string>
+    <string name="tv_forgetpwd_instrucion_2">Please enter your registered mobile number to receive an OTP</string>
+    <string name="tv_forgetpwd_instrucion_3"></string>
+    <string name="tv_forgetpwd_mobileemail_hint">Mobile No</string>
+    <string name="tv_forgetpwd_otp_hint">Enter OTP</string>
+    <string name="tv_forgetpwd_otp_ncorerct">Enter OTP Correctly</string>
+    <string name="tv_forgetpwd_npassword_hint">Enter New Password</string>
+    <string name="tv_forgetpwd_cnpassword_hint">Re-Enter New Password</string>
+    <string name="btn_forgetpwd_cpass_txt">Submit</string>
+    <string name="btn_forgetpwd_generate_otp_txt">Generate OTP</string>
+    <string name="btn_forgetpwd_verify_otp_txt">Submit</string>
+    <string name="eMsg_otp_missing">OTP can not be blank.</string>
+    <string name="eMsg_cpwd_missing">Confirm Password can not be blank.</string>
+    <string name="eMsg_cpwd_mismatch">Confirm Password Mismatch.</string>
+    <!-- forgetpwd view end -->
+
+    <!-- deallist view start-->
+    <string name="tv_off_post">Off</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- deallist view end-->
+
+
+    <string name="nomore_deal">Sorry, you can\u0027t buy any more quantity of this product</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="min_orderamount_forthis_order">Oops! Minimum Order Amount to avail this coupon is </string>
+    <string name="noTranHistory">No Transaction History Found.</string>
+    <string name="noOrderHistory">No Order Found.</string>
+
+    <string name="currentPasswordText">Enter Current Password</string>
+    <string name="currentcorrectPasswordText">Enter Current Password Correctly</string>
+    <string name="newPasswordText">Enter new Password </string>
+    <string name="passmismatchText">Password Mismatch</string>
+    <string name="pwdchnagedsuccess">Password changed successfully.</string>
+
+    <string name="couponCodemissing">Select Coupon Code</string>
+    <string name="noCouponFound">No Coupon Found</string>
+
+    <string name="MobileNoNotFound">Mobile Number does not exist.</string>
+
+
+    <string name="otp_txt11">An OTP has been sent to your registered mobile number </string>
+    <string name="otp_txt12"> . Please enter the OTP to reset the password.</string>
+
+    <string name="wStock_txt1">: You can select a maximum of </string>
+    <string name="wStock_txt2"> quantity.  </string>
+
+    <string name="profile_email_missing">Enter Email Address</string>
+    <string name="profile_email_update_succ">Email Id updated successfully.</string>
+    <string name="profile_mobile_update_succ">Mobile No updated successfully.</string>
+    <string name="profile_profile_pic_update_succ">Profile Image successfully updated</string>
+    <string name="profile_profile_pic_update_fail">Profile Image not updated.</string>
+
+    <string name="profile_cpwd_missing">Please Enter password.</string>
+    <string name="profile_pwd_incorrect">Please enter correct password.</string>
+    <string name="profile_mobile_incorrect">Enter Mobile No Correctly</string>
+    <string name="profile_calendar_btn_cancel_text">CANCEL</string>
+    <string name="profile_calendar_btn_cancel_text_color">#999999</string>
+    <string name="profile_calendar_btn_confirm_text">CONFIRM</string>
+    <string name="profile_calendar_btn_confirm_text_color">#009900</string>
+    <string name="profile_calendar_min_year">1900</string>
+    <string name="profile_calendar_max_year">2009</string>
+    <string name="profile_calendar_selected_date">2009-11-11</string>
+
+    <string name="passbook_notransfound">Seems like you haven\u0027t done any transaction yet!</string>
+
+    <string name="signup_register_success">Signup success</string>
+
+    <string name="order_noorderfound">No Order Found.</string>
+    <string name="order_tab1">All</string>
+    <string name="order_tab2">Confirmed</string>
+    <string name="order_tab3">Cancelled</string>
+
+    <string name="paymentoption_amountnot_g_wallet">Amount can not greater than wallet amount.</string>
+    <string name="paymentoption_wallet_amnt_g">Wallet amount is incorrect.</string>
+    <string name="paymentoption_amount_cnt_g_wa">Amount can not greater than wallet amount.</string>
+    <string name="paymentoption_wallet_amnt_0">WOW Cash is 0.</string>
+    <string name="paymentoption_minto_avail_wallet">Minimum Order Amount to avail WOW Cash is </string>
+    <string name="paymentoption_minto_avail_coupon2">Oops! Minimum Order Amount to avail this coupon is</string>
+
+    <string name="logout_title">Are you sure you want to logout ?</string>
+    <string name="logout_btn_cancel_text">Cancel</string>
+    <string name="logout_btn_confirm_text">Confirm</string>
+
+    <string name="promotionlist_no">No Entry Found.</string>
+
+    <string name="home_feeback_title">Rate Us</string>
+    <string name="home_feeback_goodfeedback_title">Rate App</string>
+    <string name="home_feeback_badfeedback_title">Help us do better</string>
+
+
+    <!-- view header title start -->
+    <string name="change_pwd_title">Change Password</string>
+    <string name="Checkout_title">Shop Product</string>
+    <string name="Deallist_title">Product List</string>
+    <string name="Notifications_title">Notifications</string>
+    <string name="MyOrders_title">My Orders</string>
+    <string name="Passbook_title">WOW Cash</string>
+    <string name="PaymentOptions_title">Payment Options</string>
+    <string name="Profile_title">My Profile</string>
+    <string name="StoreList_title">WOW Stores</string>
+    <string name="StoreDetail_title">Store Summary</string>
+    <!-- view header title end -->
+    <string name="discount_Amount_Zero">Sorry, this coupon is not applicable on the products in your cart!</string>
+</resources>

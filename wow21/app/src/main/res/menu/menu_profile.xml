@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.banatechnologies.wow21.splashActivity">
+
+    <item
+        android:id="@+id/action_editprofile"
+        android:orderInCategory="201"
+        android:title="Edit"
+        app:showAsAction="always" />
+</menu>

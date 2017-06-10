@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    tools:context="com.bana.rahul.orderapp.NavigationDrawerFragment">
+
+    <include layout="@layout/app_bar_header"
+        android:id="@+id/app_bar_header_id" />
+    <ListView
+        android:layout_below="@+id/app_bar_header_id"
+        android:id="@+id/sidebar_menu"
+        android:layout_width="match_parent"
+        android:entries="@array/menuOptions"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>

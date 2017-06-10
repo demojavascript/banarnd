@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_row_orderlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:clickable="false"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/view_orderstatus"
+                android:background="@android:color/holo_green_dark"
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/colorGray3"
+                            android:textSize="14sp"
+                            android:text="Order No"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:id="@+id/tv_orderno"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:layout_marginTop="5dp"
+                            android:text="WOW9798798"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/colorGray3"
+                            android:textSize="14sp"
+                            android:text="Order Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:id="@+id/tv_wdate"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/colorGray3"
+                            android:textSize="14sp"
+                            android:text="Total Items"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:id="@+id/tv_dealcount"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:layout_marginTop="5dp"
+                            android:text="2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/colorGray3"
+                            android:textSize="14sp"
+                            android:text="Total Amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_marginRight="2dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/rs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textStyle="bold"
+                                android:id="@+id/tv_orderamount"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:layout_marginTop="5dp"
+                                android:text="Date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:background="@color/colorGrayBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_storename"
+                            android:text="hxg "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp" />
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="1"
+                            android:rating="0"
+                            android:id="@+id/pop_ratingbar"
+                            android:theme="@style/RatingBar"
+                            style="?android:attr/ratingBarStyleSmall" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_row_notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:clickable="false"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/lout_upper"
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_smallImg"
+                        android:src="@drawable/ic_notifications2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_title"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:text="Title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_desc"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:textSize="12sp"
+                            android:text="Desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_wdate"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/colorlightGrayBlue"
+                            android:textSize="12sp"
+                            android:text="Date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imfLIMG"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_banner_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/imfLIMGBanner"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_banner_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

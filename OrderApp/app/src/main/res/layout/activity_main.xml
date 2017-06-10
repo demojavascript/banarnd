@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include android:id="@+id/app_bar" layout="@layout/app_bar"></include>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/app_bar"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <include android:id="@+id/super_saver" layout="@layout/supersaver"></include>
+
+                <ListView
+                    android:id="@+id/list_products"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="10dp"
+                    android:layout_margin="20dp"
+                    android:divider="@null">
+                </ListView>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <fragment
+    android:id="@+id/fragment_navigation_drawer"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    app:layout="@layout/fragment_navigation_drawer"
+    android:name="com.bana.rahul.orderapp.NavigationDrawerFragment"
+    tools:layout="@layout/fragment_navigation_drawer" />
+</android.support.v4.widget.DrawerLayout>
