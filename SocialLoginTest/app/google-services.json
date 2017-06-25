@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "598228196207",
+    "project_id": "sociallogintest-e6190"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598228196207:android:8901958aa2151ca6",
+        "android_client_info": {
+          "package_name": "com.bana.sociallogintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598228196207-uoka9sbm19sj0uhgk2kd5vg0ajmt8got.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bana.sociallogintest",
+            "certificate_hash": "3a714057f36334d0b8ea4cc0b2e21e135faf4690"
+          }
+        },
+        {
+          "client_id": "598228196207-7sm375hr9fufmrhv5t0c9gsaco6bljp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI_gaijRn5NZe9HskQ_r5UPxU1ejPv46s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598228196207:android:c6a3dd8d39d1f138",
+        "android_client_info": {
+          "package_name": "com.bana.app.sociallogintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598228196207-filj69an8lmqcjl7ujc0kmivpei5bkom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bana.app.sociallogintest",
+            "certificate_hash": "3a714057f36334d0b8ea4cc0b2e21e135faf4690"
+          }
+        },
+        {
+          "client_id": "598228196207-7sm375hr9fufmrhv5t0c9gsaco6bljp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI_gaijRn5NZe9HskQ_r5UPxU1ejPv46s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
